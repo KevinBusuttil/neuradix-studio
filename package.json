@@ -28,6 +28,18 @@
 					"icon" : "./resources/neuradix-design-studio.svg"
 				}
 			]
+		},
+		"views": {
+			"neuradix-studio-explorer" :[
+				{
+					"id" : "tables",
+					"name": "Tables/Views"
+				},
+				{
+					"id" : "forms",
+					"name" : "Forms"
+				}
+			]
 		}
 	},
 	"scripts": {
