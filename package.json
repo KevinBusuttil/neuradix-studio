@@ -1,14 +1,27 @@
 {
 	"name": "neuradix-studio",
+	"version": "0.0.1",
+	"publisher": "Busuttil Technologies Limited",
 	"displayName": "Neuradix Studio",
 	"description": "Development Studio of Neuradix ERP",
-	"version": "0.0.1",
+	"license": "MIT",
+	"icon": "resources/neuradix-design-studio.png",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
 	"categories": [
+		"Education",
 		"Other"
 	],
+	"keywords": [
+		"ERP",
+		"Studio",
+		"Neuradix"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KevinBusuttil/neuradix-studio"
+	},
 	"activationEvents": [
 		"onCommand:neuradix-studio.helloWorld"
 	],
@@ -25,7 +38,7 @@
 				{
 					"id": "neuradix-studio-explorer",
 					"title": "Neuradix Studio Explorer",
-					"icon" : "./resources/neuradix-design-studio.svg"
+					"icon" : "resources/neuradix-design-studio.svg"
 				}
 			]
 		},
@@ -38,6 +51,10 @@
 				{
 					"id" : "forms",
 					"name" : "Forms"
+				},
+				{
+					"id": "help",
+					"name": "Help and Feedback"
 				}
 			]
 		}
